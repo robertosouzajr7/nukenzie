@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+
+:root {
+  /*Primary Pallete*/
+
+  --color-primary: #fd377e;
+  --color-primary-2: #e34981;
+  --color-secondary: #03b898;
+
+  /*Grey Scale Pallete*/
+  --grey-0: rgb(255, 255, 255);
+  --grey-1: #f8f9fa;
+  --grey-2: #e9ecef;
+  --grey-3: #868e96;
+  --grey-4: #212529;
+  --box-shadows: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+
+  /*Grey Scale Pallete*/
+}
+
+.Title1 {
+  font-size: 28px;
+  color: #212529;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+
+.Title2 {
+  font-size: 24px;
+  color: #212529;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+
+.Title3 {
+  font-size: 20px;
+  color: #212529;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+
+.Headline {
+  font-size: 16px;
+  color: #212529;
+  font-family: "Nunito", sans-serif;
+  font-weight: normal;
+}
+
+p {
+  font-size: 12px;
+  color: #212529;
+  font-family: "Nunito", sans-serif;
+  font-weight: normal;
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 20px;
+  gap: 10px;
+  background-color: var(--color-primary);
+  color: var(--grey-1);
+  border: none;
+  border-radius: 8px;
+}
+
+button:hover {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 20px;
+  gap: 10px;
+  background-color: var(--color-primary-2);
+  color: var(--grey-1);
+}
+
+.Disable {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 20px;
+  gap: 10px;
+  color: var(--grey-4);
+}
+
+.Disable:hover {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 20px;
+  gap: 10px;
+  color: var(--grey-1);
+}
+
+.Enable {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 20px;
+  gap: 10px;
+  background-color: var(--color-primary);
+  color: var(--grey-1);
+}
+
+input {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 16px;
+  gap: 10px;
+  background: #f8f9fa;
+  border: 1px solid #b5bbc0;
+  border-radius: 8px;
+}
+
+input:hover {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 16px;
+  gap: 10px;
+  background: white;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+}
+
+button .trash {
+  width: 22px;
+  height: 22px;
+}
+
+li {
+  display: flex;
+  width: 560px;
+  height: 87px;
+  background-color: var(--grey-2);
+  color: var(--grey-4);
+  padding: 10px;
+  box-sizing: border-box;
+}
